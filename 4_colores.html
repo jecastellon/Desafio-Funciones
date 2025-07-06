@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>4 Colores</title>
+</head>
+<body>
+    <div id="azul" style="width: 200px; height: 200px; background-color: blue;"></div>
+    <div id="rojo" style="width: 200px; height: 200px; background-color: red;"></div>
+    <div id="verde" style="width: 200px; height: 200px; background-color: green;"></div>
+    <div id="amarillo" style="width: 200px; height: 200px; background-color: yellow;"></div>
+<script>
+azul = document.querySelector(`#azul`)
+rojo = document.querySelector(`#rojo`)
+verde = document.querySelector(`#verde`)
+amarillo = document.querySelector(`#amarillo`)
+azul.addEventListener("click", negro)
+rojo.addEventListener("click", negro)
+verde.addEventListener("click", negro)
+amarillo.addEventListener("click", negro)
+function negro(){
+    this.style.backgroundColor = "black"
+}
+/*
+- Se crean 4 divs con las características mencionadas en el ejercicio
+- Se agrega addEventListener para que al hacerles click cambie cada uno a color negro
+- Se crean las nuevas páginas "asdqwe.html" y "asdqwe.js" para el resto del ejercicio, como especifica el desafío
+*/
+</script>
+</body>
+</html>
